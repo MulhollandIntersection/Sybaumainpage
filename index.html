@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <title>Sybau Group</title>
+    <style>
+
+        h1{
+            background-color: grey;
+            text-align: center;
+            padding: 20px;
+
+        }
+        .members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+        .member-card {
+            width: 200px;
+            aspect-ratio: 1/1;
+            margin: 10px;
+            border-radius: 10px;
+            box-sizing: border-box;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0px 5px 5px black;
+        }
+        .member-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            display: block;
+        }
+        .member-card p {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            margin: 0;
+            padding: 10px 0;
+            background: rgba(0,0,0,0.5);
+            color: #fff;
+            text-align: center;
+            border-radius: 0 0 10px 10px;
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+        .member-card:hover {
+            transform: translateY(-5px);
+            transition: transform 0.3s ease;
+        }
+
+    </style>
+</head>
+<body style="font-family: 'Space Mono', sans-serif; margin: 0; padding: 0;">
+    <h1>Members of Sybau Group</h1>
+    <div class="members">
+        <a href="kirby-info.html">
+        <div class="member-card" id="kirby">
+            <img src="kirby.jpg">
+            <p>Kirby Alexander C. Ipac</p>
+        </div>
+        </a>
+        <div class="member-card" id="ashwyn">
+            <img src="ashwyn.jpg">
+            <p>Ashwyn Philip A. Deshmukh</p>
+        </div>
+        <div class="member-card" id="cerda">
+            <img src="cerda.jpg">
+            <p>Xy Jay M. Cerda</p>
+        </div>
+        <a href="miguel-info.html">
+        <div class="member-card" id="miguel">
+            <img src="miguel.jpg">
+            <p>Juan Miguel A. Orfalas</p>
+        </div>
+        </a>
+        <div class="member-card" id="mapa">
+            <img src="mapa.jpg">
+            <p>Marion Iuris D. Mapa</p>
+        </div>
+        <div class="member-card" id="alfred">
+            <img src="alfred.jpg">
+            <p>Alfred Raeyvin Cabanas</p>
+        </div>
+        <div class="member-card" id="baldo">
+            <img src="baldo.jpg">
+            <p>Emmanuel Narida Baldo</p>
+        </div>
+    </div>
+
+</body>
+</html>
