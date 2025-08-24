@@ -1,0 +1,102 @@
+body {
+    font-family: 'Intel One Mono', monospace;
+    margin: 0;
+    color: white;
+    background-color: rgb(37, 38, 43);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(25, 26, 29);
+    color: white
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: rgb(25, 26, 29);
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    display: flex;           /* Add this */
+    justify-content: center; /* Add this */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    /* Remove float: left; */
+}
+nav a:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+header {
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+}
+
+nav {
+    position: sticky;
+    top: 99.609px;
+    z-index: 1000;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h3 {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:rgb(25, 26, 29);
+    border-radius: 15px;
+    margin: 10px;
+
+}
+
+.top img {
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.member-quote p {
+    font-size: 1.5rem;
+}
+
+.basic-info p {
+    padding: 20px;
+    font-size: 1.2rem;
+    padding-top: 0;
+}
+
+.basic-info h2 {
+    padding: 20px;
+    font-size: 1.7rem;
+    padding-bottom: 0;
+
+}
+
+footer {
+    background-color: rgb(16, 17, 19);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p a {
+    text-decoration: none ;
+    color: white;
+}
+
